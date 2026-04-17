@@ -24,7 +24,7 @@ async function startServer() {
       server: { 
         middlewareMode: true,
         host: '0.0.0.0',
-        port: 3000,
+        port: 8080,
         hmr: process.env.DISABLE_HMR !== 'true',
       },
       appType: "spa",
